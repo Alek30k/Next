@@ -1,5 +1,9 @@
-import React from "react";
+"use client";
 
 export default function HomePage() {
-  return <div>HomePage</div>;
+  return (
+    <section>
+      <h1>HomePage</h1>
+    </section>
+  );
 }
