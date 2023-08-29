@@ -13,7 +13,7 @@ const loadPosts = async () => {
 
   const data = await res.json();
 
-  // await new Promise((resolve) => setTimeout(resolve, 2000));
+  await new Promise((resolve) => setTimeout(resolve, 5000));
 
   return data;
 };
