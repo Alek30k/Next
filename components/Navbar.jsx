@@ -1,9 +1,12 @@
 import Link from "next/link";
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav>
-      <h1>Navbar</h1>
+    <nav className="navbar">
+      <Link href="/">
+        <h1>Aprendo Nextjs</h1>
+      </Link>
 
       <ul>
         <li>
