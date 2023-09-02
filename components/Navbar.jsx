@@ -3,9 +3,9 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar p-5">
       <Link href="/">
-        <h1>Aprendo Nextjs</h1>
+        <h1 className="text-3xl font-bold">Aprendo Nextjs</h1>
       </Link>
 
       <ul>
